@@ -1,0 +1,46 @@
+/* General Styles */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Product List Styles */
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product-card {
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    width: calc(33% - 20px); /* Responsive layout for 3 cards per row */
+  }
+  
+  /* Product Form Styles */
+  /* You can add specific styles for the modal and form elements here */
+  
+  /* Button Styles (optional) */
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #eee;
+  }
+  
